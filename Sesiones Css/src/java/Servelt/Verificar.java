@@ -44,7 +44,7 @@ public class Verificar extends HttpServlet {
             out.println("<a href=\"/SesionesCss/Comprar.jsp\"> Comprar</a><br>");
             out.println("<a href=\"/SesionesCss/Vender.jsp\"> Vender</a><br>");
             out.println("<a href=\"/SesionesCss/Reg.jsp\"> Generar Vendendedor</a><br>");
-            out.println("<a href=\"/SesionesCss/Vic.jso\"> Ver productos</a><br>");
+            out.println("<a href=\"/SesionesCss/Vic.jsp\"> Ver productos</a><br>");
             out.println("<a href=\"/SesionesCss/index.html\"> Volver</a>");
             out.println("<br>");
             out.println("<br></body></html>");
@@ -54,7 +54,7 @@ public class Verificar extends HttpServlet {
             out.println("<html><head></head><body>");
             out.println("Bienvenid@ "+e+ " eres Usuario");
             out.println("<a href=\"/SesionesCss/Comprar.jsp\"> Comprar</a><br>");
-            out.println("<a href=\"/SesionesCss/Vic.jso\"> Ver productos</a><br>");
+            out.println("<a href=\"/SesionesCss/Vic.jsp\"> Ver productos</a><br>");
             out.println("<a href=\"/SesionesCss/index.html\"> Volver</a>");
             out.println("<br>");
             out.println("<br></body></html>");

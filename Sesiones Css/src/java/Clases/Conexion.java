@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication3;
+package Clases;
 import java.sql.*;
 
 
@@ -49,6 +49,7 @@ public class Conexion {
          
         return ok;
     }
+    
     
     public String Rol(String Email, String Contra){
         String Rol="No hay rol";

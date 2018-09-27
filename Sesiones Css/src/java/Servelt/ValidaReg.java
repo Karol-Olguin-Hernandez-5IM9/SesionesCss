@@ -5,9 +5,10 @@
  */
 package Servelt;
 
+import Clases.Conexion;
 import java.io.IOException;
 import java.io.PrintWriter;
-import javaapplication3.Conexion;
+
 import javax.jms.Session;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
